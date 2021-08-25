@@ -1,4 +1,4 @@
-gfu<-read.csv("goodforu.csv", header = T, stringsAsFactors = T)  #give pathname where the file is located
+gfu<-read.csv("goodforu.csv", header = T, stringsAsFactors = T)  #update pathname in read.csv() where the file is located
 dim(gfu)
 str(gfu)
 head(gfu)
